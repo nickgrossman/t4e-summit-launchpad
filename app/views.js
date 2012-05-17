@@ -1,3 +1,4 @@
+
 var ROFLView = Backbone.View.extend({
   main_listing: _.template($("#mainListingTemplate").html()),
   default_listing: _.template($("#defaultListingTemplate").html()),
@@ -16,16 +17,14 @@ var ROFLView = Backbone.View.extend({
     $("#mainListing").html(this.default_listing());
   },
 
-  populateMainListing: function(day, index) {
-    var listing = this.schedule[day][index];
+  populateMainListing: function(index) {
+    var listing = this.schedule[index];
     $("#mainListing").html(this.main_listing({
         title: listing.title,
-        time: listing.time,
-        desc: listing.desc
+        subtitle: listing.subtitle,
+        stickiesUrl: listing.stickiesUrl,
+        etherpadUrl: listing.etherpadUrl
     }));
-    $('#linkhound').attr('href', listing.url);
-    $('#sweeper').attr('href', listing.url);
-    $('#read').attr('href', listing.url);
   },
 
   followURL: function(e){
@@ -43,17 +42,13 @@ var ROFLView = Backbone.View.extend({
   createSideBar: function(){
     that = this;
     var htmlBuffer = "";
-    for (var day in that.schedule) {
-        htmlBuffer += that.menu_header({"title":"Friday"});
-        $.each(that.schedule[day], function(index, value){
-          htmlBuffer +=that.menu_item({
-              index: index,
-              day: day,
-              time: value.time,
-              title: value.title
-          });
-        });
-    }
+
+    $.each(that.schedule, function(index, value){ 
+      htmlBuffer +=that.menu_item({
+          index: index,
+          title: value.title
+      });
+    });
     $('#roflbar').html(htmlBuffer);
   },
 
@@ -72,11 +67,11 @@ jQuery.getJSON("data/schedule.json", function(data){
     var roflView = new ROFLView(data);
     var ROFLRouter = Backbone.Router.extend({
         routes: {
-            ":day/:index": 'showPanel',
+            ":index": 'showPanel',
             "": 'showDefault'
         },
-        showPanel: function(day, index) {
-            roflView.populateMainListing(day, parseInt(index));
+        showPanel: function(index) {
+            roflView.populateMainListing(parseInt(index));
         },
         showDefault: function() {
             roflView.showDefault();
