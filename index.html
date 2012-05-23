@@ -16,7 +16,7 @@
       }
       .sidebar-nav {
         padding: 9px 0;
-      }
+      }`
     .carousel .item {
       text-align: center;
     }
@@ -40,6 +40,9 @@
       border: none;
       padding: 0;
       margin: 0;
+    }
+    .hidden {
+      display: none;
     }
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
@@ -163,7 +166,7 @@
         </h1>
       </div>
       
-      <div class="stickies">
+      <div class="stickies <%=stickiesClass%>">
       <iframe src="<%=stickiesUrl%>"></iframe>
       </div>
       
@@ -182,7 +185,6 @@
            <i class="icon-arrow-left"></i> click a session to see the notes
       </div>
     </script>
-
     <script language="javascript" type="text/Javascript" src="app/views.js"></script>
     <!-- Placed at the end of the document so the pages load faster -->
   </body>

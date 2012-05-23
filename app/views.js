@@ -23,6 +23,7 @@ var ROFLView = Backbone.View.extend({
         title: listing.title,
         subtitle: listing.subtitle,
         stickiesUrl: listing.stickiesUrl,
+        stickiesClass: listing.stickiesClass,
         etherpadUrl: listing.etherpadUrl
     }));
   },
