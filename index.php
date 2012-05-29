@@ -18,9 +18,7 @@
   	</div>
 
 		</div>
-		
-		<hr />
-		
+				
     <iframe id="gdoc" src="https://docs.google.com/document/d/12sDX9Sr_9cR5IlVoDw5DifNOoa-H7ccjrdgusAsQY1M/edit?embedded=true" style="width: 100%;border:none;height:1200px;"></iframe>
 
     
