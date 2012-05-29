@@ -1,5 +1,5 @@
  <?php 
- $section = 'stickies';
+ $section = 'feedback';
  include('includes/header.inc.php'); 
  ?> 	 
     

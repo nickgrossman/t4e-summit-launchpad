@@ -97,3 +97,23 @@
 	</div>
 
 	<div class="container">
+		
+		<div class="well">
+			<h1>Welcome to the Tech for Engagement Summit</h1>
+			<p>This website will serve as a staging ground and collaboration space for all the participants.</p>
+		</div>
+		<br />
+		
+		<ul class="nav nav-tabs" id="section-nav">
+		  <li <?php if ($section == 'overview') echo 'class="active"'; ?>>
+			<a href="./">Overview</a>
+		  </li>
+		  <li <?php if ($section == 'stickies') echo 'class="active"'; ?>>
+			  <a href="./stickies">Stickies</a></li>
+		  <li <?php if ($section == 'sessions') echo 'class="active"'; ?>>
+		  <a href="./sessions">Sessions</a>
+		  </li>
+		  <li <?php if ($section == 'feedback') echo 'class="active"'; ?>>
+		  	<a href="./feedback">Feedback</a>
+		  </li>
+		</ul>

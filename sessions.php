@@ -1,13 +1,7 @@
- <?php include('includes/header.inc.php'); ?>
- 	 
-    <ul class="nav nav-tabs" id="section-nav">
- 	 <li>
- 	   <a href="./">Introduction</a>
- 	 </li>
- 	 <li><a href="./stickies">Stickies</a></li>
- 	 <li class="active"><a href="./sessions">Sessions</a></li>
-    </ul>
-    
+ <?php 
+ $section = 'sessions';
+ include('includes/header.inc.php'); 
+ ?>
 
      <div class="row-fluid section" id="sessions">
        <div class="span2">
