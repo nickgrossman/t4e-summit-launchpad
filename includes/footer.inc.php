@@ -34,8 +34,10 @@
      	</script>
      
      	<script type='text/template' id='defaultListingTemplate'>
-     	  <div class="hero-unit">
-     		   <i class="icon-arrow-left"></i> click a session to see the notes
+     	  <div class="well">
+	     	   <h1>This is our group notepad for session notes.</h1>
+	     	   <p>As the agenda gets set, we'll populate all the sessions here.</p>
+     		   <p><i class="icon-arrow-left"></i> click a session to see the notes</p>
      	  </div>
      	</script>
      	<script language="javascript" type="text/Javascript" src="app/views.js"></script>

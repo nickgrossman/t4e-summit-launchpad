@@ -70,7 +70,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </a>-->
-		  <a class="brand" href="#">Technology for Engagement Summit</a>
+		  <a class="brand" href="./">Tech for Engagement Summit</a>
 <!--          <div class="btn-group pull-right">
 			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 			  <i class="icon-user"></i> Username
@@ -82,13 +82,21 @@
 			  <li><a href="#">Sign Out</a></li>
 			</ul>
 		  </div>-->
-<!--         <div class="nav-collapse">
+         <div class="nav-collapse">
 			<ul class="nav">
-			  <li class="active"><a href="#">Home</a></li>
-			  <li><a href="#about">About</a></li>
-			  <li><a href="#contact">Contact</a></li>
+			  	<li <?php if ($section == 'overview') echo 'class="active"'; ?>>
+			  	<a href="./">Overview</a>
+			    </li>
+			    <li <?php if ($section == 'stickies') echo 'class="active"'; ?>>
+			  	  <a href="./stickies">Stickies</a></li>
+			    <li <?php if ($section == 'sessions') echo 'class="active"'; ?>>
+			    <a href="./sessions">Sessions</a>
+			    </li>
+			    <li <?php if ($section == 'feedback') echo 'class="active"'; ?>>
+			    	<a href="./feedback">Feedback</a>
+			    </li>
 			</ul>
-		  </div>--><!--/.nav-collapse -->
+		  </div><!--/.nav-collapse -->
 		  <ul class="nav pull-right">
 			<li><a href="#">#tech4engage</a></li>
 		  </ul>
@@ -98,22 +106,4 @@
 
 	<div class="container">
 		
-		<div class="well">
-			<h1>Welcome to the Tech for Engagement Summit</h1>
-			<p>This website will serve as a staging ground and collaboration space for all the participants.</p>
-		</div>
-		<br />
-		
-		<ul class="nav nav-tabs" id="section-nav">
-		  <li <?php if ($section == 'overview') echo 'class="active"'; ?>>
-			<a href="./">Overview</a>
-		  </li>
-		  <li <?php if ($section == 'stickies') echo 'class="active"'; ?>>
-			  <a href="./stickies">Stickies</a></li>
-		  <li <?php if ($section == 'sessions') echo 'class="active"'; ?>>
-		  <a href="./sessions">Sessions</a>
-		  </li>
-		  <li <?php if ($section == 'feedback') echo 'class="active"'; ?>>
-		  	<a href="./feedback">Feedback</a>
-		  </li>
-		</ul>
+

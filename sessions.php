@@ -6,6 +6,11 @@
      <div class="row-fluid section" id="sessions">
        <div class="span2">
      	<div class="well sidebar-nav">
+	 	  <ul class="nav nav-list">
+     	  		 <li class="nav-header">
+     	  		 	Sessions
+     	  		   </li>
+     	  	 	  </ul>
      	  <ul class="nav nav-list" id="roflbar">
      	  </ul>
      	</div><!--/.well -->
