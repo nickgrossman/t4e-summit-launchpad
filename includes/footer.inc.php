@@ -35,8 +35,8 @@
      
      	<script type='text/template' id='defaultListingTemplate'>
      	  <div class="well">
-	     	   <h1>This is our group notepad for session notes.</h1>
-	     	   <p>As the agenda gets set, we'll populate all the sessions here.</p>
+	     	   <h1>This is a group notepad for working session notes.</h1>
+	     	   <p>As the agenda gets set, we'll create a custom, interactive notepad for each session.</p>
      		   <p><i class="icon-arrow-left"></i> click a session to see the notes</p>
      	  </div>
      	</script>

@@ -20,6 +20,9 @@
 	.carousel .item {
 	  text-align: center;
 	}
+	a.brand.kf {
+		color: #5FC1F3;
+	}
 	.carousel .item img {
 	  display: inline !important;
 	}
@@ -70,7 +73,8 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </a>-->
-		  <a class="brand" href="./">Tech for Engagement Summit</a>
+		  <a class="brand kf" href="http://knightfoundation.org/technology-engagement-summit/">2012 Tech for Engagement Summit ></a>
+		  <a class="brand" style="padding-left:8px" href="./">Participant Workspace</a>
 <!--          <div class="btn-group pull-right">
 			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 			  <i class="icon-user"></i> Username
@@ -83,6 +87,7 @@
 			</ul>
 		  </div>-->
          <div class="nav-collapse">
+			<!--
 			<ul class="nav">
 			  	<li <?php if ($section == 'overview') echo 'class="active"'; ?>>
 			  	<a href="./">Overview</a>
@@ -95,7 +100,7 @@
 			    <li <?php if ($section == 'feedback') echo 'class="active"'; ?>>
 			    	<a href="./feedback">Feedback</a>
 			    </li>
-			</ul>
+			</ul>-->
 		  </div><!--/.nav-collapse -->
 		  <ul class="nav pull-right">
 			<li><a href="#">#tech4engage</a></li>
@@ -105,5 +110,16 @@
 	</div>
 
 	<div class="container">
-		
-
+			<ul class="nav nav-tabs">
+			  	<li <?php if ($section == 'overview') echo 'class="active"'; ?>>
+			  	<a href="./">Overview</a>
+				</li>
+				<li <?php if ($section == 'stickies') echo 'class="active"'; ?>>
+			  	  <a href="./stickies">Sticky Notes</a></li>
+				<li <?php if ($section == 'sessions') echo 'class="active"'; ?>>
+				<a href="./sessions">Working sessions</a>
+				</li>
+				<li <?php if ($section == 'feedback') echo 'class="active"'; ?>>
+					<a href="./feedback">Feedback</a>
+				</li>
+			</ul>
