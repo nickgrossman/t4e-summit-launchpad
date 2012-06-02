@@ -13,15 +13,16 @@
      	<script language="javascript" type="text/Javascript" src="bootstrap/js/backbone.js"></script>
      
      	<script type='text/template' id='mainListingTemplate'>
-     	  <div class="well">
+     	  <h2><%=title%></h2>
+     	  <!--<div class="well">
      		<h1><%=title%>
      		<small><%=subtitle%></small>
      		</h1>
-     	  </div>
+     	  </div>-->
      
-     	  <div class="stickies <%=stickiesClass%>">
+     	  <!--<div class="stickies <%=stickiesClass%>">
      	  <iframe src="<%=stickiesUrl%>"></iframe>
-     	  </div>
+     	  </div>-->
      
      	  <div class="etherpad">
      	  <iframe src="<%=etherpadUrl%>"></iframe>

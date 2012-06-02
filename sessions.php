@@ -4,19 +4,16 @@
  ?>
 
      <div class="row-fluid section" id="sessions">
-       <div class="span2">
+       <div class="span3">
      	<div class="well sidebar-nav">
 	 	  <ul class="nav nav-list">
-     	  		 <li class="nav-header">
-     	  		 	Sessions
-     	  		   </li>
-     	  	 	  </ul>
+ 	  	 	  </ul>
      	  <ul class="nav nav-list" id="roflbar">
      	  </ul>
      	</div><!--/.well -->
        </div><!--/span-->
-       <div class="span10">
-     	<div id="mainListing">
+       <div class="span9">
+     	 <div id="mainListing">
      	  <div class="hero-unit">
      		
      	  </div>

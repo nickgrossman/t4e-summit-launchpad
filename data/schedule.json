@@ -1,14 +1,144 @@
+
 [
   {
-   "title":"Beyond Potholes",
-   "subtitle":"The case for collaborative consumption",
-   "stickiesUrl": "http://dotstorm.byconsens.us/g/84f665b8-89b0-43af-ac37-de616fe742a8",
-   "etherpadUrl":"https://etherpad.mozilla.org/rfYCNg5e1W"
+   "title":"Facets of engagement",
+   "subtitle":"Facilitator: Eric Gordon",
+   "etherpadUrl":"https://docs.google.com/document/d/1uOTxEGy2-nC8ctt1nDAOCGWRQme4_kIKYgYQHXsYQMo/edit"
+   },
+  {
+   "title":"Success stories",
+   "subtitle":"Facilitator: Archon Fung",
+   "etherpadUrl":"https://docs.google.com/document/d/1obzWKT_T7fyCBIQGcbIhhlzmTXPWzlFX2Dor7zmITTg/edit"
+   },
+  {
+   "title":"Business models in T4E",
+   "subtitle":"Facilitator: Stacy Donohue",
+   "etherpadUrl":"http://willyou.typewith.me/p/t4e-business-models"
+   },
+  {
+   "title":"Roles for citizens",
+   "subtitle":"Facilitator: Joe Porcelli",
+   "etherpadUrl":"http://willyou.typewith.me/p/roles-for-citizens"
+   },
+  {
+   "title":"Future think",
+   "subtitle":"Facilitator: Dan LaTorre",
+   "etherpadUrl":"http://willyou.typewith.me/p/t4e-future-think"
+   },
+  {
+   "title":"Roles of the public and private sectors",
+   "subtitle":"Facilitator: Nick Grossman",
+   "etherpadUrl":"http://willyou.typewith.me/p/t4e-roles-of-private-and-public-sectors"
+   },
+  {
+   "title":"How to be a machine for learning",
+   "subtitle":"Facilitators: Jen Pahlka and Nigel Jacob",
+   "etherpadUrl":"http://willyou.typewith.me/p/t4e-machine-for-learning"
+   },
+  {
+   "title":"Metrics for engagement",
+   "subtitle":"Facilitator: Colin Maclay",
+   "etherpadUrl":"http://willyou.typewith.me/p/t4e-metrics-for-engagement"
+   },
+  {
+   "title":"Metrics 2",
+   "subtitle":"Facilitator: Eric Gordon, Colin Maclay, Archun Fung",
+   "etherpadUrl":"https://docs.google.com/document/d/1bHA2FpOpbANCvrlCT6vFtCanpiqNv5AlMmcnBfPgU7k/edit"
+   },
+  { 
+  "title":"Use Cases",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/19wLlP3iSVzGX1j4vWhM3hmtO7LTF-kmsI7lD18AUXSw/edit"
+   },
+   { 
+   "title":"What Sucks",
+   "subtitle":"Facilitator: Jen Pahlka",
+   "etherpadUrl":"https://docs.google.com/document/d/1LB1zQHdWRu8dt2GNIpDImQgnVRATQBKcgUuAEONGuq4/edit"
+   },
+   { 
+   "title":"Engagement Mechanics",
+   "subtitle":"Facilitator: Ben ",
+   "etherpadUrl":"https://docs.google.com/document/d/1kKb6okiLVuO2H7LyNuh39A0S3yMnqVSzq_LzsZZtbnE/edit"
+   },
+   { 
+   "title":"Infrastructure for Engagement",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1_m7WKEdrgplhQij-CzAA5IVpfFpFpSSORbx26US7cdk/edit"
+   },
+   { 
+   "title":"Biz Models 2",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1zB0qXgYYp7aQF1r-YprBaRGKRrLoKIRhvf4fVAVJPDI/edit"
+   },
+   { 
+   "title":"Public / Private Challenges",
+   "subtitle":"Facilitator: Nick",
+   "etherpadUrl":"https://docs.google.com/document/d/1NIxdfXeJwWGcACQ8UmQktyHhrruuN7a_p7DeRC-JEYc/edit"
+   },
+   { 
+   "title":"Open Data",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1MwIezEWLMrsaO5TjwCt5CfGeRcerBd4EB8yL_9nzF2w/edit"
+   },
+   { 
+   "title":"Michael smith",
+   "subtitle":"Facilitator:Michael Smith",
+   "etherpadUrl":"https://docs.google.com/document/d/10tvPktqvEHTpY4nTMBUikpMZZW_szznU4I4FvN2D8lM/edit"
+   },
+   { 
+   "title":"What is engagement",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1GXSBt_iVewoM06Nv0AulwMzYEce36C66sqOvUhPMK1E/edit"
    },
    {
-   "title":"Engagement mechanics",
-   "subtitle":"tricks and treats",
-   "stickiesUrl": "http://dotstorm.byconsens.us/g/84f665b8-89b0-43af-ac37-de616fe742a8",
-   "etherpadUrl":"https://etherpad.mozilla.org/CmSp0NVG0N"
+   "title":"Online / Offline engagement",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1rwbtfWkA_RXRqiDpyBv-EaQgl8ROx1WsHh7b5KB9acQ/edit"
+   },
+    { 
+   "title":"Code for Metrics",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/11qU0IR-H6G5kC2Iy9lYB59Q1dv7IeTsyp3ziJplrI6Q/edit"
+   },
+      { 
+   "title":"What should we build in the next 12 months?",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/13p-r7aGqCFJAY37M-CeLd4n6w0sU3EDgFS7hnAADUnY/edit"
+   },
+      { 
+   "title":"Matt L",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1l1b3a2kngZJvu22OoTK5NT168hREx3RaA8JrzTcBSY8/edit"
+   },
+      { 
+   "title":"Let's get crazy",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1mitDvCDmPHg6KhdTTmjfS_A2pF7xQiOgT-Ft71qi7DQ/edit"
+   },
+      { 
+   "title":"Building the Field",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1aEnVsSjjqufYl7l3YPD5wt1mioo6UZM9G92Vg5hn-E4/edit"
+   },
+      { 
+   "title":"T4E Manifesto",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1jZr7MZtVEuTI2OAZDODO3PeqbwEYa0SukBzEC2LwYUo/edit"
+   },
+      { 
+   "title":"What are our top 5 Data Sets",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1IKzOXseBLxMVLLHIVKINNbm3hcIHsqQBadPOtvY6y7s/edit"
+   },
+      { 
+   "title":"Scale is sexy",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1aehtUDGnwoDCWwAyeFI2w77XT9GCn29pR94BA66XURs/edit"
+   },
+      { 
+   "title":"Hacking Procurement",
+   "subtitle":"Facilitator:",
+   "etherpadUrl":"https://docs.google.com/document/d/1BKB4ljKGlBPalsmUWmmM9rWb2ZM4j1RrNBw9t92kGZE/edit"
    }
 ]
+
